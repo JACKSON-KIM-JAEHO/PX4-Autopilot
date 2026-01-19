@@ -129,4 +129,14 @@
         "yaml.schemas": {
                 "${workspaceFolder}/validation/module_schema.yaml": "${workspaceFolder}/src/modules/*/module.yaml"
         },
+        "python.autoComplete.extraPaths": [
+                "/home/jaeho/flight_ws/install/px4_practice_py_pkg/lib/python3.10/site-packages",
+                "/opt/ros/humble/lib/python3.10/site-packages",
+                "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        ],
+        "python.analysis.extraPaths": [
+                "/home/jaeho/flight_ws/install/px4_practice_py_pkg/lib/python3.10/site-packages",
+                "/opt/ros/humble/lib/python3.10/site-packages",
+                "/opt/ros/humble/local/lib/python3.10/dist-packages"
+        ],
 }
